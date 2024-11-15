@@ -5,9 +5,105 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hostel finder</title> 
+    <title>Hostel finder</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css">   
 </head>
+
 <body>
+    <div class="tm-main-content" id="top">
+        <div class="tm-top-bar-bg"></div>
+        <div class="tm-top-bar" id="tm-top-bar">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg narbar-light">
+                        <a class="navbar-brand mr-auto" href="#">
+                            <img src="img/logo.png" alt="Site logo">
+                            Hostel Finder
+                        </a>
+                        <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse"
+                            data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                            <ul class="navbar-nav ml-auto">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="listings.html">Listing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="tm-section tm-bg-img" id="tm-section-1">
+            <div class="tm-bg-white ie-container-width-fix-2">
+                <div class="container ie-h-align-center-fix">
+                    <div class="row">
+                        <div class="col-xs-12 ml-auto mr-auto ie-container-width-fix">
+                            <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
+                                <div class="form-row tm-search-form-row">
+                                    <i class="fa fa-map-marker fa-2x tm-form-element-icon"></i>
+
+                                    <div class="form-group tm-form-element tm-form-element-100">
+                                        <i class="fa fa-map-marker fa-2x tm-form-element-icon"></i>
+                                        <select name="room" class="form-control tm-select" id="room">
+                                            <option value="">kiambu</option>
+                                            <option value="1">Nairobi</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group tm-form-element tm-form-element-50">
+                                        <i class="fa fa-calendar fa-2x tm-form-element-icon"></i>
+
+                                    </div>
+                                </div>
+                                <div class="form-row tm-search-form-row">
+                                    <div class="form-group tm-form-element tm-form-element-2">
+                                        <select name="room" class="form-control tm-select" id="room">
+                                            <option value="">Gender</option>
+                                            <option value="1">Male</option>
+                                            <option value="2">Female</option>
+                                            <option value="3"></option>
+                                        </select>
+                                        <i class="fa fa-2x fa-bed tm-form-element-icon"></i>
+                                    </div>
+                                    <div class="form-group tm-form-element tm-form-element-2">
+                                    </div>
+                                </div>
+                                <div class="form-row tm-search-form-row">
+                                    <div class="form-group tm-form-element tm-form-element-2">
+                                        <button type="submit" class="btn btn-primary tm-btn-search"><a href="listings.html" class="tm-color-white tm-btn-white-bordered">Check Availability</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tm-section-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2 class="tm-section-title">Get hostels at affordable prices</h2>
+                        <p class="tm-color-white tm-section-subtitle">click here to view hostels</p>
+                        <a href="listings.html" class="tm-color-white tm-btn-white-bordered">Listing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tm-section tm-position-relative">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+                class="tm-section-down-arrow">
+                <polygon fill="#ee5057" points="0,0  100,0  50,60"></polygon>
+            </svg>
+        </div>
         <footer class="bg-secondary text-white pt-5 pb-4">
             <div class="container text-center text-md-left">
               <div class="row text-center text-md-left">
@@ -38,7 +134,7 @@
             </div>
       
           </footer>
-
+    </div>
 </body>
 
 </html>
