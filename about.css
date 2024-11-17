@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbarbrand{
+  margin-bottom: -10%;
+  background-color: none;
+  color: black;
+  font-weight: bold;
+  margin: unset;
+  margin-top: -5px;
+  margin-left: -5px;
+  padding-right: -100px;
+}
+.showcase-text {
+  color: white;
+  font-size: 35px;
+  margin-top: -20%;
+  text-shadow: 2px 2px black;
+}
+.showcase-subtext {
+  color: red;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
+}
+.carousel-indicators {
+  position: absolute;
+  top: -75%;
+}
+.nav-item {
+  padding-left: 5%;
+  display: flex;
+  text-align: right;
+  margin-left: 60px;
+  font-weight: bolder;
+
+ 
+}
+.nav-item:hover{
+    color: white;
+    background: red;
+
+}
+.navbar {
+  margin-left: -1%;
+  
+}
+.navlogo{
+color: black;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    font-family: 'poppins';
+    background-image: url(./images/h4.jpeg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    padding-top: 25px;
+}
+.who{
+    background-color: rgb(255, 255, 255, .5);
+    border-style: none;
+    margin: 50px;   
+    margin-bottom: 50px; 
+    line-height: normal;
+    padding: 10px;
+    font-size: 20px;
+    
+
+}
+.h1-about {
+    background-color: rgb(255, 255, 255, .5);
+    text-align: center;
+    border-style: none;
+    margin-top: -10px;
+    margin-bottom: -40px;
+    font-size: larger;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+h2{
+    color: red;
+    font-weight: bolder;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: lightgreen;
+    position: relative;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: 'poppins';
+    
+}
+
+/*-------------Amenities----------------- */
+.amenities{
+    margin: 75px 0;
+  
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+.carousel{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+.carousel-item{
+    width: 400px;
+    height: 900px;
+
+}
+.amenities-box{
+ padding: 0 35px;   
+ cursor: pointer;
+ margin-bottom: 10px;
+}
+.amenities-box img{
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.amenities-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.amenities-box p{
+    font-size: 14px;
+    color: #808080;
+    transition: .4s;
+}
+.amenities-box:hover, .active-service{
+    background: red;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 15px 15px 2px rgba(red, 0.5);
+    transition: 4s;
+}
+.amenities-box:hover p{
+    color: #fff !important;
+}
+.active-service p{
+color: #fff;
+}
+.reviews{
+  padding-top: 10%;
+  margin: 5%;
+  padding-bottom: 10%;
+  }
+  .student{
+    border-radius: 50%;
+  }
+  .creview{
+    color: black;
+  }
+  .review-text {
+    padding-left: 10%;
+  }
+  
